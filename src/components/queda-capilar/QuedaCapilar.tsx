@@ -12,10 +12,10 @@ export default function QuedaCapilar() {
     <section className="container mx-auto py-24">
       <div className="flex w-full items-center justify-between xsm:items-end xsm:justify-center">
         <div>
-          <h2 className="fsm:text-2xl mb-1 text-xl font-thin tracking-wider text-[#252527] xsm:text-3xl sm:text-5xl xl:text-8xl">
+          <h2 className="mb-1 text-xl font-thin tracking-wider text-[#252527] xsm:text-3xl sm:text-5xl xl:text-8xl">
             QUEDA CAPILAR
           </h2>
-          <h2 className="fsm:text-2xl mb-8 text-xl font-thin tracking-wider text-[#252527] xsm:text-3xl sm:text-5xl xl:text-8xl">
+          <h2 className="mb-8 text-xl font-thin tracking-wider text-[#252527] xsm:text-3xl sm:text-5xl xl:text-8xl">
             TEM TRATAMENTO
           </h2>
           <p
