@@ -1,17 +1,23 @@
 import LogoComponent from '@/components/header/LogoComponent'
 import DesktopMenu from '@/components/header/DesktopMenu'
 import MobileMenu from '@/components/header/MobileMenu'
-import bg from '@/assets/gif-teste.gif'
 import logoInicio from '@/assets/logo-inicio.png'
 import letra from '@/assets/letra-inicio.png'
 import Image from 'next/image'
+
 export default function Inicio() {
   return (
-    <section
-      className="min-h-[70vh] w-screen overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${bg.src})` }}
-    >
-      <div className="container mx-auto flex h-full flex-col">
+    <section className="relative min-h-[70vh] w-screen overflow-hidden">
+      <video
+        className="absolute left-0 top-0 h-full w-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/cabelo.mp4" type="video/mp4" />
+      </video>
+      <div className="container relative mx-auto flex h-full flex-col">
         <header className="mt-2 py-3">
           <nav className="container mx-auto flex items-center justify-between">
             <LogoComponent contentStyle="h-auto max-w-full min-w-[140px]" />
