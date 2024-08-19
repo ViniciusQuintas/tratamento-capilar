@@ -8,7 +8,7 @@ const anton = Anton({
 })
 
 export const metadata: Metadata = {
-  title: 'Depilação a Laser',
+  title: 'Tratamento Capilar',
   description:
     'O Estética Sense oferece excelência em estética corporal e facial em Viçosa - MG os melhores profissionais da dermatologia, tricologia médica, plástica, endocrinologia, ginecologia, fisioterapia dermatofuncional, sexóloga, nutrição e estética.',
 }
